@@ -2,6 +2,14 @@
 // It has the same sandbox as a Chrome extension.
 // import { contextBridge, ipcRenderer, remote } from 'electron';
 
+// declare global {
+//   interface Window {
+//       electron: {
+//           showOpenDialog(defaultPath: string): void
+//       }
+//   }
+// }
+
 // // user-preferences
 // const store = new Store({
 //   configFile: 'preferences.json',

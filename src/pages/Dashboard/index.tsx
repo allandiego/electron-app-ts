@@ -278,7 +278,7 @@ const Dashboard: React.FC = () => {
                             <IconButton
                               onClick={async () => {
                                 updateConfigData(
-                                  'file',
+                                  'directory',
                                   formRef.current.getFieldRef(
                                     'originConfigPath',
                                   ),
@@ -305,7 +305,7 @@ const Dashboard: React.FC = () => {
                             <IconButton
                               onClick={async () => {
                                 updateConfigData(
-                                  'file',
+                                  'directory',
                                   formRef.current.getFieldRef(
                                     'destinationConfigPath',
                                   ),

@@ -18,16 +18,16 @@ let mainWindow: any;
 // initialize();
 
 function createWindow() {
-  const image =
-    process.platform === 'darwin'
-      ? path.join(__dirname, 'assets', 'icon.icns')
-      : path.join(__dirname, 'assets', 'icon.ico');
+  // const image =
+  //   process.platform === 'darwin'
+  //     ? path.join(__dirname, 'assets', 'icon.icns')
+  //     : path.join(__dirname, 'assets', 'icon.ico');
 
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width: 1000,
     height: 600,
-    icon: image,
+    // icon: image,
     transparent: false,
     frame: true,
     // titleBarStyle: 'hidden', for custom-title-bar
@@ -45,7 +45,7 @@ function createWindow() {
   // and load the index.html of the app.
   mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
 
-  // mainWindow.removeMenu();
+  mainWindow.removeMenu();
   // Disable the default Menu Bar
   // Menu.setApplicationMenu(null);
 
@@ -56,7 +56,7 @@ function createWindow() {
   // });
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 }
 
 // ipcMain.handle('getUserDataPath', async event => {

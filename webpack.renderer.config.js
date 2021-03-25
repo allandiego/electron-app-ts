@@ -41,7 +41,7 @@ module.exports = {
   module: {
     rules,
   },
-  plugins: plugins,
+  plugins,
   resolve: {
     extensions: [
       '.js',
@@ -52,7 +52,7 @@ module.exports = {
       '.svg',
       '.json',
       '.png',
-      '.jpg'
+      '.jpg',
     ],
   },
 };
