@@ -27,7 +27,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "electron_app_ts"
+            "name": "move_file_app"
           }
         },
         {
@@ -78,7 +78,6 @@
     "clsx": "^1.1.1",
     "electron-settings": "^4.0.2",
     "electron-squirrel-startup": "^1.0.0",
-    "file-loader": "^6.2.0",
     "history": "^5.0.0",
     "neat-csv": "^6.0.1",
     "polished": "^4.1.1",
@@ -91,7 +90,6 @@
     "react-spring": "^9.0.0",
     "styled-components": "^5.2.1",
     "styled-icons": "^10.31.0",
-    "url-loader": "^4.1.1",
     "uuid": "^8.3.2",
     "yup": "^0.32.9"
   },
@@ -127,6 +125,8 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "fork-ts-checker-webpack-plugin": "^6.2.0",
     "node-loader": "^1.0.1",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1",
     "prettier": "^2.2.1",
     "style-loader": "^2.0.0",
     "ts-loader": "^8.0.2",
